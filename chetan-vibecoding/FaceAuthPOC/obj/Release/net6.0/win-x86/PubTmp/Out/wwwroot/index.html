@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition Auth - POC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>🔐 Face Recognition Auth</h1>
+            <p class="subtitle">Proof of Concept Demo</p>
+
+            <div id="status" class="status-box">
+                <span id="statusText">Loading face detection models...</span>
+            </div>
+
+            <div class="button-group">
+                <button id="registerBtn" class="btn btn-primary" disabled>
+                    📷 Register with Face
+                </button>
+                <button id="loginBtn" class="btn btn-secondary" disabled>
+                    🔓 Login with Face
+                </button>
+            </div>
+
+            <!-- Name Input Modal -->
+            <div id="nameModal" class="modal">
+                <div class="modal-content">
+                    <h2>Enter Your Name</h2>
+                    <input type="text" id="nameInput" class="name-input" placeholder="Enter your full name" />
+                    <div class="modal-buttons">
+                        <button id="nameOkBtn" class="btn btn-primary">Continue</button>
+                        <button id="nameCancelBtn" class="btn btn-cancel">Cancel</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Modal -->
+            <div id="videoModal" class="modal">
+                <div class="modal-content">
+                    <h2 id="modalTitle">Face Detection</h2>
+                    <div class="video-container">
+                        <video id="video" autoplay muted playsinline></video>
+                        <canvas id="overlay"></canvas>
+                    </div>
+                    <div id="detectionStatus" class="detection-status">
+                        Position your face in the frame. Look directly at camera.
+                    </div>
+                    <div class="modal-buttons">
+                        <button id="captureBtn" class="btn btn-success" disabled>
+                            ✓ Capture & Process
+                        </button>
+                        <button id="cancelBtn" class="btn btn-cancel">
+                            ✕ Cancel
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Result Modal -->
+            <div id="resultModal" class="modal">
+                <div class="modal-content result-content">
+                    <div id="resultIcon" class="result-icon">✓</div>
+                    <h2 id="resultTitle">Success!</h2>
+                    <p id="resultMessage">Operation completed successfully</p>
+                    <p id="resultConfidence" class="confidence"></p>
+                    <button id="resultOkBtn" class="btn btn-primary">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/face-auth.js"></script>
+</body>
+</html>

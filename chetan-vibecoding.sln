@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chetan-vibecoding", "chetan-vibecoding", "{BABA38FD-8CC7-6F38-6DB7-FA1301ACA2EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceAuthPOC", "chetan-vibecoding\FaceAuthPOC\FaceAuthPOC.csproj", "{1A88BF41-95D1-1054-7EE5-7C39C719FE7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A88BF41-95D1-1054-7EE5-7C39C719FE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A88BF41-95D1-1054-7EE5-7C39C719FE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A88BF41-95D1-1054-7EE5-7C39C719FE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A88BF41-95D1-1054-7EE5-7C39C719FE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A88BF41-95D1-1054-7EE5-7C39C719FE7E} = {BABA38FD-8CC7-6F38-6DB7-FA1301ACA2EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF2F533C-B1E1-4F47-840A-6A80A2602FA6}
+	EndGlobalSection
+EndGlobal

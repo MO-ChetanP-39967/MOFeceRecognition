@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ypk0TkGe42Y=",
+  "success": true,
+  "projectFilePath": "D:\\chetan-vibecoding\\FaceAuthPOC\\FaceAuthPOC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ronakparmar\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.31\\microsoft.netcore.app.runtime.win-x86.6.0.31.nupkg.sha512",
+    "C:\\Users\\ronakparmar\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.31\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.31.nupkg.sha512",
+    "C:\\Users\\ronakparmar\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.31\\microsoft.aspnetcore.app.runtime.win-x86.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}

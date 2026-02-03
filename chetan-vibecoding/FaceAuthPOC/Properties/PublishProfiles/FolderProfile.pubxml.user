@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\chetan-vibecoding\FaceAuthPOC\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2026-02-03T05:31:15.5999035Z||;True|2026-02-03T10:53:28.4691402+05:30||;True|2026-02-03T10:51:00.9269316+05:30||;True|2026-02-03T10:45:33.1351726+05:30||;True|2026-02-03T10:41:23.4680229+05:30||;True|2026-02-03T10:32:20.5914244+05:30||;True|2026-02-03T10:22:21.4323210+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

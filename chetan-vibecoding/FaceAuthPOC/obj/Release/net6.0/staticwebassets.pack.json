@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\chetan-vibecoding\\FaceAuthPOC\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\chetan-vibecoding\\FaceAuthPOC\\wwwroot\\data\\users.json",
+      "PackagePath": "staticwebassets\\data\\users.json"
+    },
+    {
+      "Id": "D:\\chetan-vibecoding\\FaceAuthPOC\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\chetan-vibecoding\\FaceAuthPOC\\wwwroot\\js\\face-auth.js",
+      "PackagePath": "staticwebassets\\js\\face-auth.js"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.FaceAuthPOC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.FaceAuthPOC.props",
+      "PackagePath": "build\\FaceAuthPOC.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FaceAuthPOC.props",
+      "PackagePath": "buildMultiTargeting\\FaceAuthPOC.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.FaceAuthPOC.props",
+      "PackagePath": "buildTransitive\\FaceAuthPOC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
